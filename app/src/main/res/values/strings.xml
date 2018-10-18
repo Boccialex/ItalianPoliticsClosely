@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Italian Politics Closely</string>
+
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found, try again later</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Tools texts -->
+    <string name="title">They throw mud\': new PM facing up to messy world of Italian politics</string>
+    <string name="date">23 May 2018</string>
+    <string name="section">World news</string>
+    <string name="author">Angela Giuffrida</string>
+    <string name="url">https://www.theguardian.com/world/2018/may/23/parents-of-lawyer-nominated-as-italys-pm-worry-about-political-mudslinging</string>
+
+    <!--Settings Activity -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Ipc settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--News per page Preference-->
+    <string name="settings_news_per_page_label">News per page</string>
+    <string name="settings_news_per_page_key" translatable="false">news_per_page</string>
+    <string name="settings_news_per_page_def" translatable="false">10</string>
+
+    <!--Order By Preference [CHAR LIMIT = 30]-->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_def" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Order-By Preference, label for oldest news [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Less recent</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Order-By Preference, label for newest news [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Most recent</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Order-By Preference, label for relevance [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+</resources>

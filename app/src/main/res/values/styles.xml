@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Section TextView style -->
+    <style name="section" parent="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_toRightOf">@+id/date</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:background">@drawable/sections_circle</item>
+    </style>
+
+    <!-- Title TextView style -->
+    <style name="title" parent="Base.TextAppearance.AppCompat.SearchResult.Title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">8dp</item>dr
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <!-- Author TextView style -->
+    <style name="author" parent="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Date TextView style -->
+    <style name="date" parent="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textColor">@color/date_text_view</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
